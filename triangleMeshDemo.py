@@ -24,23 +24,6 @@ def released(event):
 
 if __name__ == "__main__":
 
-    """
-    x = np.array([1,1,2,2,3,3])
-    y = np.array([0,1,0,1,0,1])
-
-    # Create the Triangulation; no triangles so Delaunay triangulation created.
-    triang = tri.Triangulation(x, y)
-
-    print(triang.triangles)
-    print(triang.x)
-    print(triang.y)
-
-    fig, ax = plt.subplots(1,1, figsize=(7,5), dpi=100)
-    ax.set_aspect("equal")
-    ax.triplot(triang, 'bo-', linewidth=1)
-    plt.show()
-    """
-
     #-- get polygon
     fig, ax = plt.subplots(1,1, figsize=(7,5), dpi=100)
     line, = ax.plot([], [], 'k')
